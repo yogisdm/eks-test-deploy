@@ -17,6 +17,7 @@ pipeline {
         sh 'chmod u+x ./kubectl'  
         sh './kubectl get svc'
 		sh './kubectl config view'
+		sh 'cat ~/.kube/config'
     
   }
   }
