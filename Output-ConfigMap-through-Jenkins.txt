@@ -1,0 +1,62 @@
++ cat /var/lib/jenkins/.kube/config
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJek1EUXhPREV4TURnd05sb1hEVE16TURReE5URXhNRGd3Tmxvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTC9kCkhUcXlZRzhVMk5yMmEveVJxSmhXaXlXMWtHZk5DWUZ0cjk4VVgzaUpBNndoMmljNWNHbHFqU3ZLeVFsMUlNRGkKN2MyWko5SjVaK3MwT2Y4MDNnZHpWdmtpK1NlclFmSlMwQnFYS0RkVlJ6bVgrcjNkMGFiRWlHMFFPOWZEK2N2WQp0b3kxdFRiaE44bEJUalFta0ZUckZYU1ZiVStyNW14QWEyczVLZ3lPQlg3NkhKNXJYdkptT2VMdXdsZjUzWHlNCmNkUjBtdWVMMXYyQlRxZkUyMzdnQy80cWZPZ0N2bWw3VGZvL1FHY3FHYUdqMzBpYnJ2WmpjZmFnUEZSdmUycHgKZGRzTG03bUhNVlZSS2VlZGo2M0FRaDF1R1lwVVJlTWhxelF0UW5vNElCcm9BUitOZGZCWkRvRU5mcUJmQkZHRAowaWpqWUYwUHg1OXVCMEYyRjFzQ0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZJSnExRnZWQnlkRk81YXY5Y21nUUszVmRWT1RNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBTEhFZGplRlBvRk5tQmVQeTZLRApMemNraGpROGp4NkxjdU8yMEZkcm42SG5PUkRqUmRqWXBROVVHZGRBekRKaUZxMWxNVC91dU00QjJNcW05QXdyClRiaHh1SWVVdTFoL0MzbzMzc3pNR0dESFNXU0N3T0wwcUtKVzFwbVJXZTZxN3JWVG5SNVF3ejZaNEpaNzF5V0MKUnBTU1NnOFdjT1U0Y2x3ZmJuRjlLZmRLSkkxK2toTHZORXNQWkV0UjJ4VTVYSUpqN0FFMWZ6NFA4WkF0OC81Qgo2aWRQc1c4TVJPclFJMml6cnM3eVBVZ0NzZTEvcFk1djlkbHpJS1Y0TzJVMUNmY1U0RHBnRDhUc0x1RXNXODRDClBLT1dKSWZCQm8xeVNVYlBwM2hSWUxUekJMZ3ljTHNTbUw0cDI4Qy9wcVlnWEFBWjZKanliLzhrWDBIREFSb2gKSDNrPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://8FD9C88D9B5D91863C9A198F1A2ED80F.gr7.ap-south-1.eks.amazonaws.com
+  name: sandboxClusterTest.ap-south-1.eksctl.io
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUMvakNDQWVhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJek1EUXlOekEyTURjd05Wb1hEVE16TURReU5EQTJNRGN3TlZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTHlrClZkV202T1dWemlsS2s1cU84UG1RZ0tQbDB5c2FqRWxidDhid0ZpK24zSXlOZmczZU1ZR0YyOTNuZXdHK2FLTWsKTWxnQWRPSThjd0VxUVNxcVg2S2dLc1l6SURiV1N2TUZCbmdraW5qQUt0YXZmaURqblE0MW8yMmRZOFdiVkZUeApLaUFCajhaVW4rbmJKazhLaXZQcTAxSWxqL2lzUzJiWHNjWGo3cEZJaWFvMDF6ZE1wZjR2em56amdWUXQ3VmN5CnhOek1aZjBSajZwV0VNZityc1pxV25uUExqdUFZTzMwdTl0d1c4dFBiMlNucUpURi9TSlNNNnZCT0xoRHdHaFAKT3NRbUludWpIYTFOekR4T2IrdzFXTHVQdmdGSHE0ZWx6VSt4V3RKaUd2Z2haR2lvdG9tSERzRjBEaFRpVDNvQwpQc2dRekgvSXlOUG50d2lmQ2I4Q0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZKWmRmOFNUZGYxT2J1V0dEVmgrQ0x0aTJ4MHRNQlVHQTFVZEVRUU8KTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSi9FdUxKMFhRSVZBSHdVd29CYwpKaC9sVzREekJyY21veU53L3gvM2Z6YmZlLzFxbSt4U1pPbFN6UnROL2RnQjZvVkpmVEx1eklQRTk5MWFZTWZmClgraG93NVppT21SenpBZ2gzTEtibERzeDlCY3JKcTFMVWZ2dVBYVlFYRS93YjBYQW42QkRKUkd0REpRckEveWMKYnhzUHNQN01XWkF1UUVndFZWM3VYaW9FZGZGS08xdTRPQ01jM3JkYzk0UDl0bVIrMXFla0RxYUo4eXNPSTdSbwpqL2dWTWwwZHBMMGpFK0JEbm5hUVZVR1JPUnJKMjNNalg3QVR3RWp5bGlMTHJHS2pkcEtOQVNYalV0WE02bnlEClIxL1FITnpvbENzd1JWMythc01yWTVPM3JMektBM1dnTFdHK2t4Z3J2ZkV6MXhXemxvcUFPZklvWVB5a21HYWwKdzV3PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://6FFD7A01DBCE69E9D850766885852EE3.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:014742839986:cluster/Sandbox-Cluster-Test
+contexts:
+- context:
+    cluster: sandboxClusterTest.ap-south-1.eksctl.io
+    user: i-03eea5b6f5b5d6fa0@sandboxClusterTest.ap-south-1.eksctl.io
+  name: i-03eea5b6f5b5d6fa0@sandboxClusterTest.ap-south-1.eksctl.io
+- context:
+    cluster: arn:aws:eks:ap-south-1:014742839986:cluster/Sandbox-Cluster-Test
+    user: arn:aws:eks:ap-south-1:014742839986:cluster/Sandbox-Cluster-Test
+  name: arn:aws:eks:ap-south-1:014742839986:cluster/Sandbox-Cluster-Test
+current-context: arn:aws:eks:ap-south-1:014742839986:cluster/Sandbox-Cluster-Test
+kind: Config
+preferences: {}
+users:
+- name: i-03eea5b6f5b5d6fa0@sandboxClusterTest.ap-south-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --cluster-name
+      - sandboxClusterTest
+      - --region
+      - ap-south-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      provideClusterInfo: false
+- name: arn:aws:eks:ap-south-1:014742839986:cluster/Sandbox-Cluster-Test
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - Sandbox-Cluster-Test
+      - --output
+      - json
+      command: aws
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
